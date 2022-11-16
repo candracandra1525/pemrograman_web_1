@@ -52,12 +52,12 @@
               </li>
             </a>
             <a href="Login/login.html">
-                <li>
+              <li>
                 <img src="assets/img/Nav/Account.png" alt="account" />
-                </li>
+              </li>
             </a>
             <div class="pop-login">
-              <input type="checkbox" name="show">
+              <input type="checkbox" name="show" />
             </div>
           </ul>
         </div>
@@ -765,27 +765,23 @@
     </div>
 
     <script type="text/javascript">
-      window.addEventListener('scroll', reveal);
+      window.addEventListener("scroll", reveal);
 
       function reveal() {
-        var reveals = document.querySelectorAll('.reveal');
+        var reveals = document.querySelectorAll(".reveal");
 
-        for(var i = 0 ; i < reveals.length; i++)
-        {
+        for (var i = 0; i < reveals.length; i++) {
           var windowheight = window.innerHeight;
           var revealtop = reveals[i].getBoundingClientRect().top;
           var revealpoint = 150;
 
-          if(revealtop < windowheight - revealpoint)
-          {
-            reveals[i].classList.add('active');
-          }
-          else
-          {
-            reveals[i].classList.remove('active');
+          if (revealtop < windowheight - revealpoint) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
           }
         }
-}
+      }
     </script>
 
     <!-- JavaScript -->
