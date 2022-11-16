@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unix Shopping | Official</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="assets/img/Icon/store.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Navigasi -->
+      <nav>
+        <div class="nav-top">
+          <div class="logo">
+            <a href="#">
+              <img src="assets/img/logo/Unix_Shopping_Logo__.png" alt="" class="logo_unix" />
+            </a>
+            <a href="#"><h1>Unix Shopping</h1></a>
+          </div>
+
+          <div class="search-bar">
+            <input type="text" placeholder="Search..." />
+            <a href="#"
+              ><button><img src="assets/img/Nav/Search.png" alt="search" /></button
+            ></a>
+          </div>
+
+          <ul>
+            <a href="FavProduk/favproduct.html">
+              <li>
+                <img src="assets/img/Nav/favorite.png" alt="" />
+              </li>
+            </a>
+            <a href="Keranjang/keranjang.html">
+              <li>
+                <img src="assets/img/Nav/Cart.png" alt="cart" />
+              </li>
+            </a>
+            <a href="Login/login.html">
+                <li>
+                <img src="assets/img/Nav/Account.png" alt="account" />
+                </li>
+            </a>
+            <div class="pop-login">
+              <input type="checkbox" name="show">
+            </div>
+          </ul>
+        </div>
+
+        <div class="nav-bottom">
+          <ul class="">
+            <a href="#portofolio"><li>New Arrivals</li></a>
+            <a href="#portofolio"><li>Jacket</li></a>
+            <a href="#portofolio"><li>T-Shirt</li></a>
+            <a href="#portofolio"><li>Shirt</li></a>
+            <a href="#portofolio"><li>Accessories</li></a>
+            <a href="#portofolio"><li>Building Promo</li></a>
+            <a href="#portofolio"><li>Sale</li></a>
+          </ul>
+
+          <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+      <!-- Penutup Navigasi -->
+    </header>
+    <!-- Penutup Header -->
+
+    <!-- Slide Show -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- Slide 1-->
+          <section class="section1">
+            <div class="section1_content">
+              <div class="content_kiri">
+                <h2>New Shopping Experience</h2>
+                <h1 class="salam">Welcome To</h1>
+                <h1>Unix Shopping</h1>
+                <h4>With us, live your fashion</h4>
+                <a href="#portofolio">
+                  <button><i class="bi bi-bag-check"></i> &nbsp;&nbsp; Shop Now</button>
+                </a>
+              </div>
+
+              <div class="content_kanan">
+                <img src="assets/img/hero/hero.png" alt="hero" class="images" style="max-width: 320px" />
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="carousel-item">
+          <!-- Slide 2-->
+          <section class="section1">
+            <div class="section1_content">
+              <div class="content_kiri">
+                <h2>Additional Many Vouchers</h2>
+                <h1 class="salam">The best platform</h1>
+                <h1>Unix Shopping</h1>
+                <h4>With us, save more than 50% of your money</h4>
+                <a href="#portofolio">
+                  <button><i class="bi bi-bag-check"> </i> &nbsp;&nbsp; Shop Now</button>
+                </a>
+              </div>
+
+              <div class="content_kanan">
+                <img src="assets/img/hero/diskon.png" alt="hero" class="images" style="width: 300px" />
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="carousel-item">
+          <!-- Slide 3-->
+          <section class="section1">
+            <div class="section1_content">
+              <div class="content_kiri">
+                <h2>Unlimited Free Shipping</h2>
+                <h1 class="salam">Best place</h1>
+                <h1>South Sumatra Area</h1>
+                <h4>Come directly to our shop</h4>
+                <a href="#portofolio">
+                  <button><i class="bi bi-bag-check"></i> &nbsp;&nbsp; Shop Now</button>
+                </a>
+              </div>
+
+              <div class="content_kanan">
+                <img src="assets/img/hero/truk.png" alt="hero" class="images" style="max-width: 300px" />
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Penutup SlideShow -->
+
+    <!-- Section 2 -->
+    <section class="section2">
+      <div class="section2_content reveal">
+        <div class="judul">
+          <a href="#"><h2>Why shop at Unix Shopping ?</h2></a>
+          <hr />
+        </div>
+
+        <div class="card-content">
+          <!-- Card 1 -->
+          <div class="item-card">
+            <div class="gambar">
+              <i class="bi bi-check-circle"></i>
+            </div>
+            <div class="item-card-content">
+              <h4>Friendly service</h4>
+              <p>We try our best to serve our customers.</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="item-card">
+            <div class="gambar">
+              <i class="bi bi-wallet2"></i>
+            </div>
+            <div class="item-card-content">
+              <h4>Safe payment</h4>
+              <p>We provide a variety of safe payments to use</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="item-card">
+            <div class="gambar">
+              <i class="bi bi-truck"></i>
+            </div>
+            <div class="item-card-content">
+              <h4>Fast delivery</h4>
+              <p>We use the fastest and safest shipping service so that customers are satisfied.</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="item-card">
+            <div class="gambar">
+              <i class="bi bi-award"></i>
+            </div>
+            <div class="item-card-content">
+              <h4>Guarantee</h4>
+              <p>We have a money back guarantee if the goods ordered do not arrive or are damaged with the <a href="#">terms and policies</a> that apply.</p>
+            </div>
+          </div>
+          <!-- Card  -->
+        </div>
+      </div>
+    </section>
+    <!-- Penutup Section 2 -->
+
+    <!-- Barang Barang Yang Di Jual -->
+    <!-- Card Shop -->
+    <section class="section3">
+      <div class="section3-content" id="portofolio">
+        <h1>Stuff</h1>
+
+        <div class="galery">
+          <!-- Content 1 -->
+          <div class="content reveal">
+            <img src="assets/img/product/baju.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 2 -->
+          <div class="content reveal">
+            <img src="assets/img/product/jacket.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 3 -->
+          <div class="content reveal">
+            <img src="assets/img/product/jacketRed.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 4 -->
+          <div class="content reveal">
+            <img src="assets/img/product/jamTangan.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 5 -->
+          <div class="content reveal">
+            <img src="assets/img/product/shirtBlack.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 6 -->
+          <div class="content reveal">
+            <img src="assets/img/product/shirtOrange.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 7 -->
+          <div class="content reveal">
+            <img src="assets/img/product/shirtWhite.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 8 -->
+          <div class="content reveal">
+            <img src="assets/img/product/taliPinggang.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 9 -->
+          <div class="content reveal">
+            <img src="assets/img/product/dompet.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 10 -->
+          <div class="content reveal">
+            <img src="assets/img/product/jacketRed.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 11 -->
+          <div class="content reveal">
+            <img src="assets/img/product/baju.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 12 -->
+          <div class="content reveal">
+            <img src="assets/img/product/shirtOrange.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 13 -->
+          <div class="content reveal">
+            <img src="assets/img/product/shirtBlack.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 14 -->
+          <div class="content reveal">
+            <img src="assets/img/product/shirtWhite.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 15 -->
+          <div class="content reveal">
+            <img src="assets/img/product/jacket.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Content 16 -->
+          <div class="content reveal">
+            <img src="assets/img/product/taliPinggang.png" alt="baju" />
+            <h5>Baju</h5>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, molestias!</p> -->
+            <blockquote>Rating :</blockquote>
+            <ul>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+              <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <p>
+              Price : <br />
+              Rp. 100.000,00
+            </p>
+            <div class="tombol">
+              <a href="#">
+                <button class="detail">Detail</button>
+              </a>
+              <a href="">
+                <button class="buy">Buy Now</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Layanan -->
+    <section class="section4 reveal">
+      <div class="container-fluid layanan pt-5 pb-5">
+        <div class="container text-center">
+          <h2 class="display-3" id="layanan"><b class="textComic">Layanan</b></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="row pt-4">
+            <div class="col-md-4">
+              <span class="lingkaran"
+                ><a href="https://www.google.com/" target="blank"><i class="fa-solid fa-bug fa-5x"></i></a>
+              </span>
+              <h3 class="mt-3 textComic">Report Bug</h3>
+              <p>Jika anda memiliki kendala dalam berbelanja di toko kami anda bisa melaporkan hal tersebut melalui Report Bug ini.</p>
+            </div>
+
+            <div class="col-md-4">
+              <span class="lingkaran"
+                ><a href="https://www.google.com/" target="blank"><i class="fa-solid fa-shop fa-5x"></i></a
+              ></span>
+              <h3 class="mt-3 textComic">Store</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="col-md-4">
+              <span class="lingkaran"
+                ><a href="https://id-id.facebook.com/" target="blank"><i class="fa-solid fa-comment fa-5x"></i></a
+              ></span>
+              <h3 class="mt-3 textComic">Suggestion</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="content-footer">
+        <div class="content_footer_1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reprehenderit laudantium eius distinctio enim aliquam deleniti labore consequuntur quas ab.</div>
+        <div class="content_footer_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reprehenderit laudantium eius distinctio enim aliquam deleniti labore consequuntur quas ab.</div>
+        <div class="content_footer_3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reprehenderit laudantium eius distinctio enim aliquam deleniti labore consequuntur quas ab.</div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Login -->
+    <div class="container-login">
+      <div class="content-kanan-login">
+        <form action="" method="post">
+          <!-- Salam -->
+          <h2>
+            Welcome To Unix Shopping <br />
+            Login Page
+          </h2>
+          <!-- Username -->
+          <label for="username">Username <span>*</span></label>
+          <input type="text" class="text-input" placeholder="Enter Your Username" required />
+
+          <!-- Password -->
+          <label for="username">Password <span>*</span></label>
+          <input type="password" class="text-input" placeholder="Enter Your Password" required />
+
+          <!-- Submit -->
+          <input type="submit" value="Login" class="submit" />
+
+          <blockquote>If you don't have an account, please <a href="../Register/Register.html"> register</a> first</blockquote>
+        </form>
+      </div>
+    </div>
+
+    <!-- Login Form -->
+    <div class="login-container">
+      <div class="login-content-kanan">
+        <form action="" method="post">
+          <!-- Salam -->
+          <h2>
+            Welcome To Unix Shopping <br />
+            Login Page
+          </h2>
+          <!-- Username -->
+          <label for="username">Username <span>*</span></label>
+          <input type="text" class="text-input" placeholder="Enter Your Username" required />
+
+          <!-- Password -->
+          <label for="username">Password <span>*</span></label>
+          <input type="password" class="text-input" placeholder="Enter Your Password" required />
+
+          <!-- Submit -->
+          <input type="submit" value="Login" class="submit" />
+
+          <blockquote>If you don't have an account, please <a href="../Register/Register.html"> register</a> first</blockquote>
+        </form>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      window.addEventListener('scroll', reveal);
+
+      function reveal() {
+        var reveals = document.querySelectorAll('.reveal');
+
+        for(var i = 0 ; i < reveals.length; i++)
+        {
+          var windowheight = window.innerHeight;
+          var revealtop = reveals[i].getBoundingClientRect().top;
+          var revealpoint = 150;
+
+          if(revealtop < windowheight - revealpoint)
+          {
+            reveals[i].classList.add('active');
+          }
+          else
+          {
+            reveals[i].classList.remove('active');
+          }
+        }
+}
+    </script>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

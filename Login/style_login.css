@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", "Poppins";
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.login-container .login-content-kanan {
+  width: 300%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container .login-content-kanan form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: rgba(66, 194, 255, 0.4);
+  border-radius: 8px;
+}
+
+.login-container .login-content-kanan form h2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.login-container .login-content-kanan form label {
+  margin-top: 15px;
+  margin-bottom: 7px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.login-container .login-content-kanan form label span {
+  color: red;
+  font-weight: bold;
+}
+
+.login-container .login-content-kanan form .text-input {
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.login-container .login-content-kanan form .submit {
+  margin-top: 30px;
+  height: 40px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.login-container .login-content-kanan form .submit:hover {
+  width: 100%;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.login-container .login-content-kanan form blockquote {
+  margin-top: 20px;
+  padding: 10px;
+}
+.login-container .login-content-kanan form blockquote a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.login-container .login-content-kanan form blockquote a:hover {
+  font-size: 17px;
+}
+
+@media screen and (max-width: 820px) {
+  .login-container {
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+  .login-container .login-content-kanan form {
+    background-color: #fff;
+  }
+
+  .login-container .login-content-kanan form h2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .login-container .login-content-kanan {
+    height: auto;
+    margin-top: -180px;
+  }
+  .login-container .login-content-kiri {
+    background-color: #fff;
+    height: auto;
+  }
+
+  .login-container .login-content-kanan form .text-input {
+    background-color: rgba(66, 194, 255, 0.3);
+  }
+  .login-container .login-content-kanan form .submit {
+    background-color: rgba(66, 194, 255, 0.5);
+  }
+}
